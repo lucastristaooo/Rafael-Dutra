@@ -1,0 +1,262 @@
+@charset "UFT-8";
+@import url('https://fonts.googleapis.com/css2?family=Bacasime+Antique&family=Nunito+Sans:opsz,wght@6..12,200&display=swap');       
+*{
+    margin: 0px;
+    padding: 0px;
+    font: normal 1em Arial;
+}
+header{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)), url(imagens/pexels-felix-mittermeier-957024.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.nav-links{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 37.5px 75px 0px 75px;
+}
+header > .nav-links > nav > ul{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+header > .nav-links > nav > ul > li{
+    list-style-type: none;
+}
+header > .nav-links > img{
+    width: 30px;
+}
+header  > .nav-links > nav > ul > li > a{
+    text-decoration: none;
+    color: white;
+    font: 500 normal 1em 'Nunito Sans', sans-serif;
+}
+header > .nav-links > nav > ul > li > a::after{
+    transition: 0.5s;
+    content: "";
+    width: 0%;
+    height: 2px;
+    background-color: #b4e58c;
+    display: block;
+    margin: auto;
+}
+header > .nav-links > nav > ul > li > a:hover::after{
+    width: 100%;
+}
+header > .início > h1{
+    margin: 140px auto 0px auto;
+    text-align: center;
+    color: white;
+    font: 400 normal 7em 'Bacasime Antique', serif; 
+}
+header > .início > .psicólogo{
+    margin: 0px auto 20px auto;
+    text-align: center;
+    color: white;
+    font: 400 normal 1.3em 'Bacasime Antique', serif;
+}
+header > .início > p{
+    width: 500px;
+    margin: 0px auto 50px auto;
+    text-align: center;
+    font: normal 1.3em 'Bacasime Antique', serif;
+    line-height: 200%;
+    color: white;
+}
+header > .início > .botões{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    justify-content: center;
+}
+header > .início > .botões > .vejamais{
+    color: white;
+    font: normal 1em 'Bacasime Antique', serif;
+    text-decoration: underline;
+    padding: 10px 30px 10px 30px;
+    transition: 0.5s;
+}
+header > .início > .botões > .vejamais:hover{
+    color: rgb(123, 162, 56);
+}
+header > .início > .botões > .contato{
+    color: white;
+    text-decoration: none;
+    background-color: #b4e58c;
+    padding: 10px 30px 10px 30px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 20px #3c4d2f;
+    font: normal 1em 'Bacasime Antique', serif;
+    transition: 0.5s;
+}
+header > .início > .botões > .contato:hover{
+    background-color: rgb(123, 162, 56);
+    color: white;
+}
+header > .início > .seta{
+    font: normal 1em 'Nunito Sans', sans-serif;
+    margin-top: 120px;
+    margin-bottom: 0px;
+}
+header > .início > .seta > img{
+    animation: seta 1s infinite;
+}
+@keyframes seta{
+    0%{
+        transform: translateY(0px);
+    }
+    50%{
+        transform: translateY(5px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}
+main{
+    background: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.0)), url(imagens/pexels-photo-1654255.jpeg) center no-repeat fixed;
+    background-size: cover;
+    min-height: 100vh;
+    width: 100%;
+}
+main > .psicanálise{
+    padding: 150px;
+}
+main > .psicanálise > h1{
+    font: 400 normal 5em 'Nunito Sans', sans-serif;
+    color: white;
+    text-align: center;
+    padding-bottom: 50px;
+}
+main > .psicanálise > h1 > span{
+    font: 400 normal 1em 'Nunito Sans', sans-serif; 
+    color: #b4e58c;
+    margin: auto;
+    text-decoration: underline;
+}
+main > .psicanálise > p{
+    margin: auto;
+    font: 400 normal 1.3em 'Nunito Sans', sans-serif;
+    text-align: justify;
+    line-height: 125%;
+    padding: 25px;
+    box-shadow: 1px 1px 10px black;
+    border-radius: 10px;
+    background-color: white;   
+}
+main > .sobre{
+    display: row;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+    padding: 0px 100px 0px 100px;
+}
+main > .sobre > .sobres{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    justify-items: center;
+    align-content: space-evenly;
+    gap: 50px;
+    flex-wrap: wrap;
+    align-items: normal;
+}
+main > .sobre > h1  {
+    font: 500 normal 5em 'Nunito Sans', sans-serif;
+    color: white;
+    text-align: center;
+    padding-bottom: 50px;
+}
+main > .sobre > .sobres > p{
+    font: normal 500 1.35em 'Nunito Sans', sans-serif;
+    color: black;
+    line-height: 125%;
+    text-align: justify;
+    text-indent: 1em;
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px black;
+}
+main > .sobre > .sobres > div > img{
+    width: 400px;
+    border-radius: 10000px;
+    box-sizing: border-box;
+    border: 5px solid white;
+}
+main > .sobre > .contato > .blococ{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-items: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 0px;
+} 
+main > .sobre > .contato > h1{
+    font: 400 normal 5em 'Nunito Sans', serif;
+    color: white;
+    text-align: center;
+    padding-bottom: 50px;
+    margin-top: 100px;
+}
+main > .sobre > .contato > div > .divcontato{
+    font: 500 normal 1.3em 'Nunito Sans', serif;
+    color: black;
+    margin: auto;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px black;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+main > .sobre > div > p{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-content: center;
+    width: 500px;
+}
+main > .sobre > .contato > .blococ > .contatolinks{
+    margin: auto;
+    gap: 20px;
+    justify-content: space-evenly;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-content: space-evenly;
+    width: 500px;
+}
+main > .sobre> div > .blococ > p > a{
+    color: white;
+    width: 250px;
+    text-align: center;
+    text-decoration: none;
+    margin: auto;
+    background-color: #b4e58c;
+    padding: 10px 30px 10px 30px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px #3c4d2f;
+    font: normal 1.4em 'Bacasime Antique', serif;
+    transition: 0.5s;
+}
+main > .sobre > div > .blococ > p > a > img{
+    width: 20px;
+}
+main > .sobre > div > .blococ > p > a:hover{
+    background-color: rgb(123, 162, 56);
+}
+.footer{
+    text-align: center;
+    padding: 50px 25px 10px 25px;
+    font-weight: 300;
+}
+.footer > p{
+    font-size: 0.9em;
+}
