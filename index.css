@@ -20,6 +20,9 @@ header{
     justify-content: space-between;
     padding: 37.5px 75px 0px 75px;
 }
+.nav-links-celular{
+    display: none;
+}
 header > .nav-links > nav > ul{
     display: flex;
     flex-direction: row;
@@ -124,29 +127,24 @@ main{
     width: 100%;
 }
 main > .psicanálise{
-    padding: 150px;
+    padding: 100px;
 }
 main > .psicanálise > h1{
-    font: 400 normal 5em 'Nunito Sans', sans-serif;
+    font: 400 normal 5em 'Becasime Antique', serif;
     color: white;
     text-align: center;
     padding-bottom: 50px;
 }
 main > .psicanálise > h1 > span{
-    font: 400 normal 1em 'Nunito Sans', sans-serif; 
-    color: #b4e58c;
-    margin: auto;
+    font: 400 normal 1em 'Bacasime Antique', serif; 
+    color: black;
     text-decoration: underline;
 }
 main > .psicanálise > p{
-    margin: auto;
-    font: 400 normal 1.3em 'Nunito Sans', sans-serif;
+    font: 500 normal 1.3em 'Nunito Sans', sans-serif;
     text-align: justify;
-    line-height: 125%;
-    padding: 25px;
-    box-shadow: 1px 1px 10px black;
-    border-radius: 10px;
-    background-color: white;   
+    line-height: 150%;
+    color: white;
 }
 main > .sobre{
     display: row;
@@ -161,32 +159,28 @@ main > .sobre > .sobres{
     justify-content: space-between;
     justify-items: center;
     align-content: space-evenly;
-    gap: 50px;
+    gap: 25px;
     flex-wrap: wrap;
     align-items: normal;
 }
 main > .sobre > h1  {
-    font: 500 normal 5em 'Nunito Sans', sans-serif;
+    font: 500 normal 5em 'Becamise Antique', serif;
     color: white;
     text-align: center;
-    padding-bottom: 50px;
+    padding-bottom: 40px;
 }
 main > .sobre > .sobres > p{
-    font: normal 500 1.35em 'Nunito Sans', sans-serif;
+    font: normal 500 1.3em 'Nunito Sans', sans-serif;
     color: black;
     line-height: 125%;
     text-align: justify;
-    text-indent: 1em;
-    background-color: white;
-    padding: 20px;
-    border-radius: 5px;
-    box-shadow: 1px 1px 5px black;
+    text-indent: 1.5em;
 }
 main > .sobre > .sobres > div > img{
-    width: 400px;
-    border-radius: 10000px;
+    width: 410px;
+    border-radius: 100%;
     box-sizing: border-box;
-    border: 5px solid white;
+    box-shadow: 1px 1px 10px black;
 }
 main > .sobre > .contato > .blococ{
     display: flex;
@@ -198,38 +192,32 @@ main > .sobre > .contato > .blococ{
     gap: 0px;
 } 
 main > .sobre > .contato > h1{
-    font: 400 normal 5em 'Nunito Sans', serif;
+    font: 400 normal 5em 'Becasime Antique', serif;
     color: white;
     text-align: center;
-    padding-bottom: 50px;
     margin-top: 100px;
 }
 main > .sobre > .contato > div > .divcontato{
     font: 500 normal 1.3em 'Nunito Sans', serif;
     color: black;
-    margin: auto;
-    background-color: white;
-    border-radius: 5px;
-    box-shadow: 1px 1px 5px black;
-    padding: 20px;
+    padding: 25px;
     text-align: center;
-    margin-bottom: 50px;
+    margin-bottom: 25px;
 }
 main > .sobre > div > p{
     display: flex;
     flex-direction: column;
-    gap: 20px;
     justify-content: center;
     align-content: center;
-    width: 500px;
+    width: 525px;
 }
 main > .sobre > .contato > .blococ > .contatolinks{
     margin: auto;
-    gap: 20px;
+    gap: 25px;
     justify-content: space-evenly;
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 25px;
     align-content: space-evenly;
     width: 500px;
 }
@@ -243,20 +231,187 @@ main > .sobre> div > .blococ > p > a{
     padding: 10px 30px 10px 30px;
     border-radius: 10px;
     box-shadow: 1px 1px 5px #3c4d2f;
-    font: normal 1.4em 'Bacasime Antique', serif;
+    font: normal 1.3em 'Bacasime Antique', serif;
     transition: 0.5s;
 }
 main > .sobre > div > .blococ > p > a > img{
-    width: 20px;
+    width: 17px;
 }
 main > .sobre > div > .blococ > p > a:hover{
     background-color: rgb(123, 162, 56);
 }
-.footer{
-    text-align: center;
-    padding: 50px 25px 10px 25px;
-    font-weight: 300;
-}
-.footer > p{
+.made{
+    padding: 50px 0px 12.5px 0px;
+    font: normal 500 1em "Nunito Sans" sans-serif;
     font-size: 0.9em;
+}
+.fotter{
+    text-align: center;
+}
+.iconsfotter > img{
+    text-align: center;
+    width: 20px;
+    margin-bottom: 10px;
+}
+@media(max-width: 600px){
+    .nav-links{
+        display: none;
+    }
+    .nav-links-celular{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 37.5px 75px 0px 75px;
+    }
+    header > .nav-links-celular > nav > ul{
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        height: 39%;
+        width: 200px;
+        top: 0px;
+        right: 0px;
+        text-align: center;
+        z-index: 2;
+        background-color: rgb(123, 162, 56, 0.85);
+        padding: 40px 0px 0px 0px;
+        gap: 50px;
+        border-radius: 0 0 0 5%;
+    }
+    header > .nav-links-celular > nav > ul > img{
+        position: absolute;
+        top: 0px;
+        left: 0px;
+    }
+    header > .nav-links-celular > nav > ul > li{
+        list-style-type: none;
+    }
+    header > .nav-links-celular > img{
+        width: 30px;
+    }
+    header  > .nav-links-celular > nav > ul > li > a{
+        text-decoration: none;
+        color: white;
+        font: 500 normal 1em 'Nunito Sans', sans-serif;
+    }
+    header > .nav-links-celular > nav > ul > li > a::after{
+        transition: 0.5s;
+        content: "";
+        width: 0%;
+        height: 2px;
+        background-color: #b4e58c;
+        display: block;
+        margin: auto;
+    }
+    header > .nav-links-celular > nav > ul > li > a:hover::after{
+        width: 40%;
+    }
+    header > .início > h1{
+        font-size: 5.5em;
+    }
+    header > .início > p{
+        width: 300px;
+        margin: 0px auto 50px auto;
+        text-align: center;
+        font: normal 0.95em 'Bacasime Antique', serif;
+        line-height: 200%;
+        color: white;
+    }
+    header > .início > .seta{
+        font: normal 0.8em 'Nunito Sans', sans-serif;
+    }
+    main > .psicanálise > h1{
+        font: 400 normal 4em 'Becasime Antique', serif;
+        color: white;
+        text-align: center;
+        padding-bottom: 50px;
+    }
+    main > .psicanálise > h1 > span{
+        font: 400 normal 0.8em 'Bacasime Antique', serif; 
+        color: black;
+        text-decoration: underline;
+    }
+    main > .psicanálise > p{
+        font: 500 normal 1em 'Nunito Sans', sans-serif;
+        text-align: justify;
+        line-height: 150%;
+        text-indent: 1.5em;
+    }
+    main > .sobre{
+        display: row;
+        flex-direction: row;
+        justify-content: space-between;
+        align-content: center;
+        padding: 0px 100px 0px 100px;
+    }
+    main > .sobre > .sobres{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        justify-items: center;
+        align-content: space-evenly;
+        gap: 25px;
+        flex-wrap: wrap;
+        align-items: normal;
+    }
+    main > .sobre > h1  {
+        font: 500 normal 4em 'Becamise Antique', serif;
+        color: white;
+        text-align: center;
+        padding-bottom: 40px;
+    }
+    main > .sobre > .sobres > p{
+        font: normal 500 1em 'Nunito Sans', sans-serif;
+        color: black;
+        line-height: 150%;
+        text-align: justify;
+        text-indent: 1.5em;
+    }
+    main > .sobre > .sobres > div > img{
+        width: 235px;
+        border-radius: 100%;
+        box-sizing: border-box;
+        box-shadow: 1px 1px 10px black;
+    }
+    main > .sobre > .contato > .blococ > .contatolinks{
+        margin: auto;
+        gap: 25px;
+        justify-content: space-evenly;
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+        align-content: space-evenly;
+        width: 500px;
+    }
+    main > .sobre> div > .blococ > p > a{
+        color: white;
+        width: 200px;
+        text-align: center;
+        text-decoration: none;
+        margin: auto;
+        background-color: #b4e58c;
+        padding: 5px 15px 5px 15px;
+        border-radius: 10px;
+        box-shadow: 1px 1px 5px #3c4d2f;
+        font: normal 1em 'Bacasime Antique', serif;
+        transition: 0.5s;
+    }
+    main > .sobre > .contato > h1{
+        font: normal 500 3em 'Becamise Antique', serif;  
+        text-align: center;   
+    }
+    main > .sobre > .contato > .blococ > .divcontato{
+    font: normal 500 1em 'Nunito Sans', sans-serif;  
+    text-align: center;   
+    }
+    .made{
+        padding: 50px 0px 12.5px 0px;
+        font: normal 500 1em "Nunito Sans" sans-serif;
+        font-size: 0.8em;
+    }
+    .iconsfotter > img{
+        text-align: center;
+        width: 15px;
+        margin-bottom: 10px;
+    }
 }
