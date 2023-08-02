@@ -88,7 +88,7 @@ header > .início > .botões > .vejamais:hover{
     color: rgb(123, 162, 56);
 }
 header > .início > .botões > .contato{
-    color: white;
+    color: black;
     text-decoration: none;
     background-color: #b4e58c;
     padding: 10px 30px 10px 30px;
@@ -99,7 +99,7 @@ header > .início > .botões > .contato{
 }
 header > .início > .botões > .contato:hover{
     background-color: rgb(123, 162, 56);
-    color: white;
+    color: black;
 }
 header > .início > .seta{
     font: normal 1em 'Nunito Sans', sans-serif;
