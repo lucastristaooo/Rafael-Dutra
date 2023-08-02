@@ -137,14 +137,14 @@ main > .psicanálise > h1{
 }
 main > .psicanálise > h1 > span{
     font: 400 normal 1em 'Bacasime Antique', serif; 
-    color: black;
+    color: white;
     text-decoration: underline;
 }
 main > .psicanálise > p{
     font: 500 normal 1.3em 'Nunito Sans', sans-serif;
     text-align: justify;
     line-height: 150%;
-    color: white;
+    color: black;
 }
 main > .sobre{
     display: row;
@@ -222,7 +222,7 @@ main > .sobre > .contato > .blococ > .contatolinks{
     width: 500px;
 }
 main > .sobre> div > .blococ > p > a{
-    color: white;
+    color: black;
     width: 250px;
     text-align: center;
     text-decoration: none;
@@ -235,7 +235,7 @@ main > .sobre> div > .blococ > p > a{
     transition: 0.5s;
 }
 main > .sobre > div > .blococ > p > a > img{
-    width: 17px;
+    width: 19px;
 }
 main > .sobre > div > .blococ > p > a:hover{
     background-color: rgb(123, 162, 56);
@@ -267,7 +267,7 @@ main > .sobre > div > .blococ > p > a:hover{
         display: none;
         flex-direction: column;
         position: absolute;
-        height: 37.5%;
+        height: 38%;
         width: 200px;
         top: 0px;
         right: 0px;
@@ -276,7 +276,7 @@ main > .sobre > div > .blococ > p > a:hover{
         background-color: rgb(123, 162, 56, 0.85);
         padding: 40px 0px 0px 0px;
         gap: 50px;
-        border-radius: 0 0 0 3%;
+        border-radius: 0 0 0 4%;
     }
     header > .nav-links-celular > nav > ul > img{
         position: absolute;
@@ -328,7 +328,7 @@ main > .sobre > div > .blococ > p > a:hover{
     }
     main > .psicanálise > h1 > span{
         font: 400 normal 0.8em 'Bacasime Antique', serif; 
-        color: black;
+        color: white;
         text-decoration: underline;
     }
     main > .psicanálise > p{
@@ -384,7 +384,7 @@ main > .sobre > div > .blococ > p > a:hover{
         width: 500px;
     }
     main > .sobre> div > .blococ > p > a{
-        color: white;
+        color: black;
         width: 200px;
         text-align: center;
         text-decoration: none;
