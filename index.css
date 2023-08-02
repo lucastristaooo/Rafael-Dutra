@@ -143,6 +143,7 @@ main > .psicanálise > h1 > span{
 main > .psicanálise > p{
     font: 500 normal 1.3em 'Nunito Sans', sans-serif;
     text-align: justify;
+    text-indent: 1em;
     line-height: 150%;
     color: black;
 }
@@ -174,7 +175,7 @@ main > .sobre > .sobres > p{
     color: black;
     line-height: 125%;
     text-align: justify;
-    text-indent: 1.5em;
+    text-indent: 1em;
 }
 main > .sobre > .sobres > div > img{
     width: 410px;
@@ -328,7 +329,7 @@ main > .sobre > div > .blococ > p > a:hover{
         padding-bottom: 50px;
     }
     main > .psicanálise > h1 > span{
-        font: 400 normal 0.8em 'Bacasime Antique', serif; 
+        font: 400 normal 0.9em 'Bacasime Antique', serif; 
         color: white;
         text-decoration: underline;
     }
@@ -336,7 +337,7 @@ main > .sobre > div > .blococ > p > a:hover{
         font: 500 normal 1em 'Nunito Sans', sans-serif;
         text-align: justify;
         line-height: 150%;
-        text-indent: 1.5em;
+        text-indent: 1em;
     }
     main > .sobre{
         display: row;
@@ -366,7 +367,7 @@ main > .sobre > div > .blococ > p > a:hover{
         color: black;
         line-height: 150%;
         text-align: justify;
-        text-indent: 1.5em;
+        text-indent: 1em;
     }
     main > .sobre > .sobres > div > img{
         width: 235px;
