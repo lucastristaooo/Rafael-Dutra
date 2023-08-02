@@ -276,7 +276,7 @@ main > .sobre > div > .blococ > p > a:hover{
         background-color: rgb(123, 162, 56, 0.85);
         padding: 40px 0px 0px 0px;
         gap: 50px;
-        border-radius: 0 0 0 5%;
+        border-radius: 0 0 0 3%;
     }
     header > .nav-links-celular > nav > ul > img{
         position: absolute;
