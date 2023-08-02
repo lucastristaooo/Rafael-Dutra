@@ -248,7 +248,7 @@ main > .sobre > div > .blococ > p > a:hover{
 .fotter{
     text-align: center;
 }
-.iconsfotter > img{
+.iconsfotter > a > img{
     text-align: center;
     width: 20px;
     margin-bottom: 10px;
@@ -409,7 +409,7 @@ main > .sobre > div > .blococ > p > a:hover{
         font: normal 500 1em "Nunito Sans" sans-serif;
         font-size: 0.8em;
     }
-    .iconsfotter > img{
+    .iconsfotter > a > img{
         text-align: center;
         width: 15px;
         margin-bottom: 10px;
