@@ -181,6 +181,7 @@ main > .sobre > .sobres > div > img{
     border-radius: 100%;
     box-sizing: border-box;
     box-shadow: 1px 1px 10px black;
+    margin: auto;
 }
 main > .sobre > .contato > .blococ{
     display: flex;
@@ -372,6 +373,7 @@ main > .sobre > div > .blococ > p > a:hover{
         border-radius: 100%;
         box-sizing: border-box;
         box-shadow: 1px 1px 10px black;
+        margin: auto;
     }
     main > .sobre > .contato > .blococ > .contatolinks{
         margin: auto;
