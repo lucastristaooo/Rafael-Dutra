@@ -52,19 +52,19 @@ main > .p1 > .p1-a{
     width: 415px;
 }
 main > .p1 > .p1-a > h1{
-    font: 700 normal 60px Inter;
+    font: 700 normal 60px "Inter";
     margin-bottom: 7.5px;
 }
 main .p1 > .p1-a > .crp{
-    font: 400 normal 18px Inter;
+    font: 400 normal 18px "Inter";
     margin-bottom: 50px;
 }
 main > .p1 > .p1-a > p{
-    font: 400 normal 28px Inter;
+    font: 400 normal 28px "Inter";
     width: 67vh;
 }
 main > .p1 > .p1-a > .textinho{
-    font: 400 normal 28px Inter;
+    font: 400 normal 28px "Inter";
     width: 67vh;
     line-height: 36px;
     margin-bottom: 0px;
@@ -72,7 +72,7 @@ main > .p1 > .p1-a > .textinho{
 main > .p1 > .p1-a > .links > .contato{
     border-radius: 10px;
     padding: 20px 25px;
-    font: 400 normal 19px Inter;
+    font: 400 normal 19px "Inter";
     text-decoration: none;
     color: white;
     background-color: #404E34;
@@ -121,11 +121,11 @@ main > .p2 > .p2-a > article{
     margin-bottom: 125px;
 }
 main > .p2 > .p2-a > article > h2{
-    font: 600 normal 37px Inter;
+    font: 600 normal 37px "Inter";
     margin-bottom: 40px;
 }
 main > .p2 > .p2-a > article > p{
-    font: 400 normal 18px Inter;
+    font: 400 normal 18px "Inter";
     text-align: justify;
     margin-bottom: 70px;
     line-height: 27px;
@@ -137,7 +137,7 @@ main > .p2 > .p2-a > img{
 main > .p2 > .p2-a > article > a{
     border-radius: 10px;
     padding: 20px 35px;
-    font: 400 normal 19px Inter;
+    font: 400 normal 19px "Inter";
     text-decoration: none;
     color: white;
     background-color: #404E34;
@@ -151,11 +151,11 @@ main > .p3 > .p3-a > article{
     margin-top: 50px;
 }
 main > .p3 > .p3-a > article > h2{
-    font: 600 normal 37px Inter;
+    font: 600 normal 37px "Inter";
     margin-bottom: 40px;
 }
 main > .p3 > .p3-a > article > p{
-    font: 400 normal 18px Inter;
+    font: 400 normal 18px "Inter";
     text-align: justify;
     margin-bottom: 70px;
     line-height: 27px;
@@ -168,7 +168,7 @@ main > .p3 > .p3-a > img{
 main > .p3 > .p3-a > article > a{
     border-radius: 10px;
     padding: 20px 25px;
-    font: 400 normal 19px Inter;
+    font: 400 normal 19px "Inter";
     text-decoration: none;
     color: white;
     background-color: #404E34;
@@ -195,11 +195,11 @@ main > .p4 > .p4-a > article{
     margin-bottom: 50px;
 }
 main > .p4 > .p4-a > article > h2{
-    font: 600 normal 37px Inter;
+    font: 600 normal 37px "Inter";
     margin-bottom: 40px;
 }
 main > .p4 > .p4-a > article > p{
-    font: 400 normal 18px Inter;
+    font: 400 normal 18px "Inter";
     text-align: justify;
     margin-bottom: 70px;
     line-height: 27px;
@@ -213,7 +213,7 @@ main > .p4 > .p4-a > img{
 main > .p4 > .p4-a > article > a{
     border-radius: 10px;
     padding: 20px 25px;
-    font: 400 normal 19px Inter;
+    font: 400 normal 19px "Inter";
     text-decoration: none;
     color: white;
     background-color: #404E34;
@@ -243,7 +243,7 @@ main > .p5 > .p5-a > article{
     width: 80vw
 }
 footer > p{
-    font: normal 300 1em Inter;
+    font: normal 300 1em "Inter";
     text-align: center;
     margin-bottom: 20px;
 }
@@ -260,7 +260,7 @@ footer > div > a > img{
 }
 footer > .crpfot{
     margin-top: -15px;
-    font: normal 300 0.8em Inter;
+    font: normal 300 0.8em "Inter";
 }
 @media screen and (max-width: 1420px) {
     .bola{
@@ -280,19 +280,19 @@ footer > .crpfot{
         width: 415px;
     }
     main > .p1 > .p1-a > h1{
-        font: 700 normal 50px Inter;
+        font: 700 normal 50px "Inter";
         margin-bottom: 7.5px;
     }
     main .p1 > .p1-a > .crp{
-        font: 400 normal 17px Inter;
+        font: 400 normal 17px "Inter";
         margin-bottom: 50px;
     }
     main > .p1 > .p1-a > p{
-        font: 400 normal 26px Inter;
+        font: 400 normal 26px "Inter";
         width: 67vh;
     }
     main > .p1 > .p1-a > .textinho{
-        font: 400 normal 25px Inter;
+        font: 400 normal 25px "Inter";
         width: 67vh;
         line-height: 36px;
         margin-bottom: 0px;
@@ -300,7 +300,7 @@ footer > .crpfot{
     main > .p1 > .p1-a > .links > .contato{
         border-radius: 10px;
         padding: 20px 25px;
-        font: 400 normal 19px Inter;
+        font: 400 normal 19px "Inter";
         text-decoration: none;
         color: white;
         background-color: #404E34;
@@ -315,11 +315,11 @@ footer > .crpfot{
         margin-bottom: 125px;
     }
     main > .p2 > .p2-a > article > h2{
-        font: 600 normal 36px Inter;
+        font: 600 normal 36px "Inter";
         margin-bottom: 40px;
     }
     main > .p2 > .p2-a > article > p{
-        font: 400 normal 17px Inter;
+        font: 400 normal 17px "Inter";
         text-align: justify;
         margin-bottom: 70px;
         line-height: 27px;
@@ -331,7 +331,7 @@ footer > .crpfot{
     main > .p2 > .p2-a > article > a{
         border-radius: 10px;
         padding: 20px 35px;
-        font: 400 normal 19px Inter;
+        font: 400 normal 19px "Inter";
         text-decoration: none;
         color: white;
         background-color: #404E34;
@@ -345,11 +345,11 @@ footer > .crpfot{
         margin-top: 50px;
     }
     main > .p3 > .p3-a > article > h2{
-        font: 600 normal 35px Inter;
+        font: 600 normal 35px "Inter";
         margin-bottom: 40px;
     }
     main > .p3 > .p3-a > article > p{
-        font: 400 normal 17px Inter;
+        font: 400 normal 17px "Inter";
         text-align: justify;
         margin-bottom: 70px;
         line-height: 27px;
@@ -362,7 +362,7 @@ footer > .crpfot{
     main > .p3 > .p3-a > article > a{
         border-radius: 10px;
         padding: 20px 25px;
-        font: 400 normal 19px Inter;
+        font: 400 normal 19px "Inter";
         text-decoration: none;
         color: white;
         background-color: #404E34;
@@ -389,11 +389,11 @@ footer > .crpfot{
         margin-bottom: 50px;
     }
     main > .p4 > .p4-a > article > h2{
-        font: 600 normal 35px Inter;
+        font: 600 normal 35px "Inter";
         margin-bottom: 40px;
     }
     main > .p4 > .p4-a > article > p{
-        font: 400 normal 17px Inter;
+        font: 400 normal 17px "Inter";
         text-align: justify;
         margin-bottom: 70px;
         line-height: 27px;
@@ -407,7 +407,7 @@ footer > .crpfot{
     main > .p4 > .p4-a > article > a{
         border-radius: 10px;
         padding: 20px 25px;
-        font: 400 normal 19px Inter;
+        font: 400 normal 19px "Inter";
         text-decoration: none;
         color: white;
         background-color: #404E34;
@@ -438,7 +438,7 @@ footer > .crpfot{
     }
     main > .p1 > .p1-a > h1{
         text-align: center;
-        font: 700 normal 47px Inter;
+        font: 700 normal 47px "Inter";
         margin-bottom: 7.5px;
     }
     main > .p1 > .p1-b > img{
@@ -446,17 +446,17 @@ footer > .crpfot{
     } 
     main .p1 > .p1-a > .crp{
         text-align: center;
-        font: 400 normal 15px Inter;
+        font: 400 normal 15px "Inter";
         margin-bottom: 50px;
         width: 400px;
     }
     main > .p1 > .p1-a > p{
-        font: 400 normal 24px Inter;
+        font: 400 normal 24px "Inter";
         width: 50vh;
     }
     main > .p1 > .p1-a > .textinho{
         text-align: center;
-        font: 400 normal 22px Inter;
+        font: 400 normal 22px "Inter";
         width: 50vh;
         margin: auto;
         line-height: 36px;
@@ -465,7 +465,7 @@ footer > .crpfot{
     main > .p1 > .p1-a > .links > .contato{
         border-radius: 10px;
         padding: 20px 25px;
-        font: 400 normal 19px Inter;
+        font: 400 normal 19px "Inter";
         text-decoration: none;
         color: white;
         background-color: #404E34;
@@ -480,11 +480,11 @@ footer > .crpfot{
         margin-bottom: 125px;
     }
     main > .p2 > .p2-a > article > h2{
-        font: 600 normal 33px Inter;
+        font: 600 normal 33px "Inter";
         margin-bottom: 40px;
     }
     main > .p2 > .p2-a > article > p{
-        font: 400 normal 16px Inter;
+        font: 400 normal 16px "Inter";
         text-align: justify;
         margin-bottom: 70px;
         line-height: 27px;
@@ -496,7 +496,7 @@ footer > .crpfot{
     main > .p2 > .p2-a > article > a{
         border-radius: 10px;
         padding: 20px 35px;
-        font: 400 normal 16px Inter;
+        font: 400 normal 16px "Inter";
         text-decoration: none;
         color: white;
         background-color: #404E34;
@@ -510,11 +510,11 @@ footer > .crpfot{
         margin-top: 50px;
     }
     main > .p3 > .p3-a > article > h2{
-        font: 600 normal 33px Inter;
+        font: 600 normal 33px "Inter";
         margin-bottom: 40px;
     }
     main > .p3 > .p3-a > article > p{
-        font: 400 normal 15px Inter;
+        font: 400 normal 15px "Inter";
         text-align: justify;
         margin-bottom: 70px;
         line-height: 27px;
@@ -527,7 +527,7 @@ footer > .crpfot{
     main > .p3 > .p3-a > article > a{
         border-radius: 10px;
         padding: 20px 25px;
-        font: 400 normal 16px Inter;
+        font: 400 normal 16px "Inter";
         text-decoration: none;
         color: white;
         background-color: #404E34;
@@ -554,11 +554,11 @@ footer > .crpfot{
         margin-bottom: 50px;
     }
     main > .p4 > .p4-a > article > h2{
-        font: 600 normal 30px Inter;
+        font: 600 normal 30px "Inter";
         margin-bottom: 40px;
     }
     main > .p4 > .p4-a > article > p{
-        font: 400 normal 16px Inter;
+        font: 400 normal 16px "Inter";
         text-align: justify;
         margin-bottom: 70px;
         line-height: 27px;
@@ -572,7 +572,7 @@ footer > .crpfot{
     main > .p4 > .p4-a > article > a{
         border-radius: 10px;
         padding: 20px 25px;
-        font: 400 normal 16px Inter;
+        font: 400 normal 16px "Inter";
         text-decoration: none;
         color: white;
         background-color: #404E34;
@@ -602,7 +602,7 @@ footer > .crpfot{
         width: 400px;
     }
     main > .p1 > .p1-a > h1{
-        font: 700 normal 40px Inter;
+        font: 700 normal 40px "Inter";
         margin-bottom: 7.5px;
         text-align: center;
     }
@@ -610,15 +610,15 @@ footer > .crpfot{
         width: 325px;
     } 
     main .p1 > .p1-a > .crp{
-        font: 400 normal 14px Inter;
+        font: 400 normal 14px "Inter";
         margin-bottom: 50px;
     }
     main > .p1 > .p1-a > p{
-        font: 400 normal 23px Inter;
+        font: 400 normal 23px "Inter";
         width: 67vh;
     }
     main > .p1 > .p1-a > .textinho{
-        font: 400 normal 20px Inter;
+        font: 400 normal 20px "Inter";
         text-align: center;
         width: 50vh;
         line-height: 36px;
@@ -627,7 +627,7 @@ footer > .crpfot{
     main > .p1 > .p1-a > .links > .contato{
         border-radius: 10px;
         padding: 20px 25px;
-        font: 400 normal 14px Inter;
+        font: 400 normal 14px "Inter";
         text-decoration: none;
         color: white;
         background-color: #404E34;
@@ -642,11 +642,11 @@ footer > .crpfot{
         margin-bottom: 125px;
     }
     main > .p2 > .p2-a > article > h2{
-        font: 600 normal 33px Inter;
+        font: 600 normal 33px "Inter";
         margin-bottom: 40px;
     }
     main > .p2 > .p2-a > article > p{
-        font: 400 normal 16px Inter;
+        font: 400 normal 16px "Inter";
         text-align: justify;
         margin-bottom: 70px;
         line-height: 27px;
@@ -658,7 +658,7 @@ footer > .crpfot{
     main > .p2 > .p2-a > article > a{
         border-radius: 10px;
         padding: 20px 35px;
-        font: 400 normal 14px Inter;
+        font: 400 normal 14px "Inter";
         text-decoration: none;
         color: white;
         background-color: #404E34;
@@ -672,11 +672,11 @@ footer > .crpfot{
         margin-top: 50px;
     }
     main > .p3 > .p3-a > article > h2{
-        font: 600 normal 33px Inter;
+        font: 600 normal 33px "Inter";
         margin-bottom: 40px;
     }
     main > .p3 > .p3-a > article > p{
-        font: 400 normal 15px Inter;
+        font: 400 normal 15px "Inter";
         text-align: justify;
         margin-bottom: 70px;
         line-height: 27px;
@@ -689,7 +689,7 @@ footer > .crpfot{
     main > .p3 > .p3-a > article > a{
         border-radius: 10px;
         padding: 20px 25px;
-        font: 400 normal 15px Inter;
+        font: 400 normal 15px "Inter";
         text-decoration: none;
         color: white;
         background-color: #404E34;
@@ -716,11 +716,11 @@ footer > .crpfot{
         margin-bottom: 50px;
     }
     main > .p4 > .p4-a > article > h2{
-        font: 600 normal 30px Inter;
+        font: 600 normal 30px "Inter";
         margin-bottom: 40px;
     }
     main > .p4 > .p4-a > article > p{
-        font: 400 normal 15px Inter;
+        font: 400 normal 15px "Inter";
         text-align: justify;
         margin-bottom: 70px;
         line-height: 27px;
@@ -734,7 +734,7 @@ footer > .crpfot{
     main > .p4 > .p4-a > article > a{
         border-radius: 10px;
         padding: 20px 25px;
-        font: 400 normal 16px Inter;
+        font: 400 normal 16px "Inter";
         text-decoration: none;
         color: white;
         background-color: #404E34;
