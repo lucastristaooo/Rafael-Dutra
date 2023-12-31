@@ -1,420 +1,756 @@
-@charset "UFT-8";
-@import url('https://fonts.googleapis.com/css2?family=Bacasime+Antique&family=Nunito+Sans:opsz,wght@6..12,200&display=swap');       
+@charset "UTF-8";
 *{
     margin: 0px;
     padding: 0px;
-    font: normal 1em Arial;
+    font-family: Inter;
 }
-header{
-    min-height: 100vh;
-    width: 100%;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)), url(imagens/pexels-felix-mittermeier-957024.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-}
-.nav-links{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    padding: 37.5px 75px 0px 75px;
-}
-.nav-links-celular{
-    display: none;
-}
-header > .nav-links > nav > ul{
-    display: flex;
-    flex-direction: row;
-    gap: 50px;
-}
-header > .nav-links > nav > ul > li{
-    list-style-type: none;
-}
-header > .nav-links > img{
-    width: 30px;
-}
-header  > .nav-links > nav > ul > li > a{
-    text-decoration: none;
-    color: white;
-    font: 500 normal 1em 'Nunito Sans', sans-serif;
-}
-header > .nav-links > nav > ul > li > a::after{
-    transition: 0.5s;
-    content: "";
-    width: 0%;
-    height: 2px;
-    background-color: #b4e58c;
+header > nav > a{
+    font: 400 normal 18px Inter;
+    text-underline-offset: 7px;
     display: block;
-    margin: auto;
+    margin: -128px 0px 0px 164px;
+    color: black;
+
 }
-header > .nav-links > nav > ul > li > a:hover::after{
-    width: 100%;
-}
-header > .início > h1{
-    margin: 140px auto 0px auto;
-    text-align: center;
-    color: white;
-    font: 400 normal 7em 'Bacasime Antique', serif; 
-}
-header > .início > .psicólogo{
-    margin: 0px auto 20px auto;
-    text-align: center;
-    color: white;
-    font: 400 normal 1.3em 'Bacasime Antique', serif;
-}
-header > .início > p{
-    width: 500px;
-    margin: 0px auto 50px auto;
-    text-align: center;
-    font: normal 1.3em 'Bacasime Antique', serif;
-    line-height: 200%;
-    color: white;
-}
-header > .início > .botões{
-    display: flex;
-    flex-direction: row;
-    gap: 50px;
-    justify-content: center;
-}
-header > .início > .botões > .vejamais{
-    color: white;
-    font: normal 1em 'Bacasime Antique', serif;
-    text-decoration: underline;
-    padding: 10px 30px 10px 30px;
+header > nav > a:hover{
+    opacity: 0.5;
     transition: 0.5s;
 }
-header > .início > .botões > .vejamais:hover{
-    color: rgb(123, 162, 56);
-}
-header > .início > .botões > .contato{
-    color: black;
-    text-decoration: none;
-    background-color: #b4e58c;
-    padding: 10px 30px 10px 30px;
-    border-radius: 10px;
-    box-shadow: 1px 1px 20px #3c4d2f;
-    font: normal 1em 'Bacasime Antique', serif;
-    transition: 0.5s;
-}
-header > .início > .botões > .contato:hover{
-    background-color: rgb(123, 162, 56);
-    color: black;
-}
-header > .início > .seta{
-    font: normal 1em 'Nunito Sans', sans-serif;
-    margin-top: 120px;
-    margin-bottom: 0px;
-}
-header > .início > .seta > img{
-    animation: seta 1s infinite;
-}
-@keyframes seta{
-    0%{
-        transform: translateY(0px);
-    }
-    50%{
-        transform: translateY(5px);
-    }
-    100%{
-        transform: translateY(0px);
-    }
-}
-main{
-    background: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.0)), url(imagens/pexels-photo-1654255.jpeg) left center no-repeat fixed;
-    background-size: cover;
-    min-height: 100vh;
-    width: 100%;
-}
-main > .psicanálise{
-    padding: 100px;
-}
-main > .psicanálise > h1{
-    font: 400 normal 5em 'Becasime Antique', serif;
-    color: white;
+header > nav > img{
+    display: block;
     text-align: center;
-    padding-bottom: 50px;
+    cursor: pointer;
+    margin: 30px auto -60px auto;
 }
-main > .psicanálise > h1 > span{
-    font: 400 normal 1em 'Bacasime Antique', serif; 
-    color: white;
-    text-decoration: underline;
+header > nav > img{
+    width: 200px;
 }
-main > .psicanálise > p{
-    font: 500 normal 1.3em 'Nunito Sans', sans-serif;
-    text-align: justify;
-    text-indent: 1em;
-    line-height: 150%;
-    color: black;
-}
-main > .sobre{
-    display: row;
-    flex-direction: row;
-    justify-content: space-between;
-    align-content: center;
-    padding: 0px 100px 0px 100px;
-}
-main > .sobre > .sobres{
+main > .p1{
+    margin: 165.7px auto 200px auto;
+    width: 80vw;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    justify-items: center;
-    align-content: space-evenly;
-    gap: 25px;
+    justify-content: space-evenly;
     flex-wrap: wrap;
-    align-items: normal;
+    justify-items: center;
+    align-items: center;
 }
-main > .sobre > h1  {
-    font: 500 normal 5em 'Becamise Antique', serif;
-    color: white;
-    text-align: center;
-    padding-bottom: 40px;
-}
-main > .sobre > .sobres > p{
-    font: normal 500 1.3em 'Nunito Sans', sans-serif;
-    color: black;
-    line-height: 125%;
-    text-align: justify;
-    text-indent: 1em;
-}
-main > .sobre > .sobres > div > img{
-    width: 410px;
-    border-radius: 100%;
-    box-sizing: border-box;
-    box-shadow: 1px 1px 10px black;
+main > .p2 > .p2-a{
+    width: 100vw;
     margin: auto;
-}
-main > .sobre > .contato > .blococ{
     display: flex;
     flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
     align-items: center;
     justify-items: center;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    gap: 0px;
-} 
-main > .sobre > .contato > h1{
-    font: 400 normal 5em 'Becasime Antique', serif;
-    color: white;
-    text-align: center;
-    margin-top: 100px;
+    background-color: #8C9484;
+    margin: -200px 0px 100px 0px;
 }
-main > .sobre > .contato > div > .divcontato{
-    font: 500 normal 1.3em 'Nunito Sans', serif;
-    color: black;
-    padding: 25px;
-    text-align: center;
-    margin-bottom: 25px;
+main > .p1 > .p1-a{
+    width: 415px;
 }
-main > .sobre > div > p{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-content: center;
-    width: 525px;
+main > .p1 > .p1-a > h1{
+    font: 700 normal 60px Inter;
+    margin-bottom: 7.5px;
 }
-main > .sobre > .contato > .blococ > .contatolinks{
-    margin: auto;
-    gap: 25px;
-    justify-content: space-evenly;
-    display: flex;
-    flex-direction: column;
-    gap: 25px;
-    align-content: space-evenly;
-    width: 500px;
+main .p1 > .p1-a > .crp{
+    font: 400 normal 18px Inter;
+    margin-bottom: 50px;
 }
-main > .sobre> div > .blococ > p > a{
-    color: black;
-    width: 250px;
-    text-align: center;
-    text-decoration: none;
-    margin: auto;
-    background-color: #b4e58c;
-    padding: 10px 30px 10px 30px;
+main > .p1 > .p1-a > p{
+    font: 400 normal 28px Inter;
+    width: 67vh;
+}
+main > .p1 > .p1-a > .textinho{
+    font: 400 normal 28px Inter;
+    width: 67vh;
+    line-height: 36px;
+    margin-bottom: 0px;
+}
+main > .p1 > .p1-a > .links > .contato{
     border-radius: 10px;
-    box-shadow: 1px 1px 5px #3c4d2f;
-    font: normal 1.3em 'Bacasime Antique', serif;
+    padding: 20px 25px;
+    font: 400 normal 19px Inter;
+    text-decoration: none;
+    color: white;
+    background-color: #404E34;
+}
+main > .p1 > .p1-a > .links > .contato:hover{
+    background-color: #00A241;
+    transition: 0.2s;
+}
+main > .p1 > .p1-b > .bola{
+    width: 40vh;
+    border-radius: 100%;
+    height: 40vh;
+    z-index: -1;
+    right: 200px;
+    top: 550px;
+    position: absolute;
+    background-color: #404E34;
+    opacity: 0.6;
+}
+main > .p1 > .p1-b > img{
+    width: 500px;
+    margin: 50px auto 50px auto;
+    display: block;
+    border-radius: 100%;
+}
+main > .p1 > .p1-a > .links{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+main > .p1 > .p1-a > .links > .zap{
+    margin: 50px;
+    background-color: white;
+}
+main > .p1 > .p1-a > .links > .zap > img{
+    width: 60px
+}
+main > .p1 > .p1-a > .links > .zap > img:hover{
+    opacity: 0.5;
     transition: 0.5s;
 }
-main > .sobre > div > .blococ > p > a > img{
-    width: 19px;
+main > .p2 > .p2-a > article{
+    width: 400px;
+    margin-top: 50px;
+    margin-bottom: 125px;
 }
-main > .sobre > div > .blococ > p > a:hover{
-    background-color: rgb(123, 162, 56);
+main > .p2 > .p2-a > article > h2{
+    font: 600 normal 37px Inter;
+    margin-bottom: 40px;
 }
-.made{
-    padding: 50px 0px 12.5px 0px;
-    font: normal 500 1em "Nunito Sans" sans-serif;
-    font-size: 0.9em;
+main > .p2 > .p2-a > article > p{
+    font: 400 normal 18px Inter;
+    text-align: justify;
+    margin-bottom: 70px;
+    line-height: 27px;
 }
-.fotter{
+main > .p2 > .p2-a > img{
+    width: 450px;
+    margin-top: -40px;
+}
+main > .p2 > .p2-a > article > a{
+    border-radius: 10px;
+    padding: 20px 35px;
+    font: 400 normal 19px Inter;
+    text-decoration: none;
+    color: white;
+    background-color: #404E34;
+}
+main > .p2 > .p2-a > article > a:hover{
+    background-color: #00A241;
+    transition: 0.2s;
+}
+main > .p3 > .p3-a > article{
+    width: 400px;
+    margin-top: 50px;
+}
+main > .p3 > .p3-a > article > h2{
+    font: 600 normal 37px Inter;
+    margin-bottom: 40px;
+}
+main > .p3 > .p3-a > article > p{
+    font: 400 normal 18px Inter;
+    text-align: justify;
+    margin-bottom: 70px;
+    line-height: 27px;
+}
+main > .p3 > .p3-a > img{
+    width: 400px;
+    margin-top: 50px;
+    border-radius: 10px;
+}
+main > .p3 > .p3-a > article > a{
+    border-radius: 10px;
+    padding: 20px 25px;
+    font: 400 normal 19px Inter;
+    text-decoration: none;
+    color: white;
+    background-color: #404E34;
+}
+main > .p3 > .p3-a > article > a:hover{
+    background-color: #00A241;
+    transition: 0.2s;
+}
+main > .p3 > .p3-a{
+    width: 100vw;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-items: center;
+    background-color: white;
+    margin: -150px 0px 100px 0px;
+}
+main > .p4 > .p4-a > article{
+    width: 400px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+main > .p4 > .p4-a > article > h2{
+    font: 600 normal 37px Inter;
+    margin-bottom: 40px;
+}
+main > .p4 > .p4-a > article > p{
+    font: 400 normal 18px Inter;
+    text-align: justify;
+    margin-bottom: 70px;
+    line-height: 27px;
+}
+main > .p4 > .p4-a > img{
+    width: 450px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius: 300px;
+}
+main > .p4 > .p4-a > article > a{
+    border-radius: 10px;
+    padding: 20px 25px;
+    font: 400 normal 19px Inter;
+    text-decoration: none;
+    color: white;
+    background-color: #404E34;
+}
+main > .p4 > .p4-a > article > a:hover{
+    background-color: #00A241;
+    transition: 0.2s;
+}
+main > .p4 > .p4-a{
+    width: 100vw;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-items: center;
+    background-color: #8C9484;
+    margin: -40px 0px 100px 0px;
+}
+main > .p5 > .p5-a{
+    margin-top: -75px;
+    margin-bottom: 30px;
+}
+main > .p5 > .p5-a > article{
+    margin: auto;
+    width: 80vw
+}
+footer > p{
+    font: normal 300 1em Inter;
     text-align: center;
+    margin-bottom: 20px;
 }
-.iconsfotter > a > img{
-    text-align: center;
-    width: 20px;
-    margin-bottom: 10px;
+footer > div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 15px;
 }
-@media(max-width: 600px){
-    .nav-links{
+footer > div > a > img{
+    width: 25px;
+}
+footer > .crpfot{
+    margin-top: -15px;
+    font: normal 300 0.8em Inter;
+}
+@media screen and (max-width: 1420px) {
+    .bola{
         display: none;
     }
-    .nav-links-celular{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        padding: 37.5px 75px 0px 75px;
-    }
-    header > .nav-links-celular > nav > ul{
+}
+@media screen and (max-width: 1143px){
+    header > nav > a{
         display: none;
-        flex-direction: column;
-        position: absolute;
-        height: 38%;
-        width: 200px;
-        top: 0px;
-        right: 0px;
-        text-align: center;
-        z-index: 2;
-        background-color: rgb(123, 162, 56, 0.85);
-        padding: 40px 0px 0px 0px;
-        gap: 50px;
-        border-radius: 0 0 0 4%;
     }
-    header > .nav-links-celular > nav > ul > img{
-        position: absolute;
-        top: 0px;
-        left: 0px;
+}
+@media screen and (max-width: 849px){
+    header > nav > img{
+        width: 175px;
     }
-    header > .nav-links-celular > nav > ul > li{
-        list-style-type: none;
+    main > .p1 > .p1-a{
+        width: 415px;
     }
-    header > .nav-links-celular > img{
-        width: 30px;
+    main > .p1 > .p1-a > h1{
+        font: 700 normal 50px Inter;
+        margin-bottom: 7.5px;
     }
-    header  > .nav-links-celular > nav > ul > li > a{
-        text-decoration: none;
-        color: white;
-        font: 500 normal 1em 'Nunito Sans', sans-serif;
+    main .p1 > .p1-a > .crp{
+        font: 400 normal 17px Inter;
+        margin-bottom: 50px;
     }
-    header > .nav-links-celular > nav > ul > li > a::after{
-        transition: 0.5s;
-        content: "";
-        width: 0%;
-        height: 2px;
-        background-color: #b4e58c;
-        display: block;
-        margin: auto;
+    main > .p1 > .p1-a > p{
+        font: 400 normal 26px Inter;
+        width: 67vh;
     }
-    header > .nav-links-celular > nav > ul > li > a:hover::after{
-        width: 40%;
+    main > .p1 > .p1-a > .textinho{
+        font: 400 normal 25px Inter;
+        width: 67vh;
+        line-height: 36px;
+        margin-bottom: 0px;
     }
-    header > .início > h1{
-        font-size: 5.5em;
-    }
-    header > .início > p{
-        width: 300px;
-        margin: 0px auto 50px auto;
-        text-align: center;
-        font: normal 0.95em 'Bacasime Antique', serif;
-        line-height: 200%;
-        color: white;
-    }
-    header > .início > .seta{
-        font: normal 0.8em 'Nunito Sans', sans-serif;
-    }
-    main > .psicanálise > h1{
-        font: 400 normal 4em 'Becasime Antique', serif;
-        color: white;
-        text-align: center;
-        padding-bottom: 50px;
-    }
-    main > .psicanálise > h1 > span{
-        font: 400 normal 0.9em 'Bacasime Antique', serif; 
-        color: white;
-        text-decoration: underline;
-    }
-    main > .psicanálise > p{
-        font: 500 normal 1em 'Nunito Sans', sans-serif;
-        text-align: justify;
-        line-height: 150%;
-        text-indent: 1em;
-    }
-    main > .sobre{
-        display: row;
-        flex-direction: row;
-        justify-content: space-between;
-        align-content: center;
-        padding: 0px 100px 0px 100px;
-    }
-    main > .sobre > .sobres{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        justify-items: center;
-        align-content: space-evenly;
-        gap: 25px;
-        flex-wrap: wrap;
-        align-items: normal;
-    }
-    main > .sobre > h1  {
-        font: 500 normal 4em 'Becamise Antique', serif;
-        color: white;
-        text-align: center;
-        padding-bottom: 40px;
-    }
-    main > .sobre > .sobres > p{
-        font: normal 500 1em 'Nunito Sans', sans-serif;
-        color: black;
-        line-height: 150%;
-        text-align: justify;
-        text-indent: 1em;
-    }
-    main > .sobre > .sobres > div > img{
-        width: 235px;
-        border-radius: 100%;
-        box-sizing: border-box;
-        box-shadow: 1px 1px 10px black;
-        margin: auto;
-    }
-    main > .sobre > .contato > .blococ > .contatolinks{
-        margin: auto;
-        gap: 25px;
-        justify-content: space-evenly;
-        display: flex;
-        flex-direction: column;
-        gap: 25px;
-        align-content: space-evenly;
-        width: 500px;
-    }
-    main > .sobre> div > .blococ > p > a{
-        color: black;
-        width: 200px;
-        text-align: center;
-        text-decoration: none;
-        margin: auto;
-        background-color: #b4e58c;
-        padding: 5px 15px 5px 15px;
+    main > .p1 > .p1-a > .links > .contato{
         border-radius: 10px;
-        box-shadow: 1px 1px 5px #3c4d2f;
-        font: normal 1em 'Bacasime Antique', serif;
-        transition: 0.5s;
+        padding: 20px 25px;
+        font: 400 normal 19px Inter;
+        text-decoration: none;
+        color: white;
+        background-color: #404E34;
     }
-    main > .sobre > .contato > h1{
-        font: normal 500 3em 'Becamise Antique', serif;  
-        text-align: center;   
+    main > .p1 > .p1-a > .links > .contato:hover{
+        background-color: #00A241;
+        transition: 0.2s;
+    } 
+    main > .p2 > .p2-a > article{
+        width: 400px;
+        margin-top: 50px;
+        margin-bottom: 125px;
     }
-    main > .sobre > .contato > .blococ > .divcontato{
-    font: normal 500 1em 'Nunito Sans', sans-serif;  
-    text-align: center;   
+    main > .p2 > .p2-a > article > h2{
+        font: 600 normal 36px Inter;
+        margin-bottom: 40px;
     }
-    .made{
-        padding: 50px 0px 12.5px 0px;
-        font: normal 500 1em "Nunito Sans" sans-serif;
-        font-size: 0.8em;
+    main > .p2 > .p2-a > article > p{
+        font: 400 normal 17px Inter;
+        text-align: justify;
+        margin-bottom: 70px;
+        line-height: 27px;
     }
-    .iconsfotter > a > img{
+    main > .p2 > .p2-a > img{
+        width: 425px;
+        margin-top: 50px;
+    }
+    main > .p2 > .p2-a > article > a{
+        border-radius: 10px;
+        padding: 20px 35px;
+        font: 400 normal 19px Inter;
+        text-decoration: none;
+        color: white;
+        background-color: #404E34;
+    }
+    main > .p2 > .p2-a > article > a:hover{
+        background-color: #00A241;
+        transition: 0.2s;
+    }
+    main > .p3 > .p3-a > article{
+        width: 400px;
+        margin-top: 50px;
+    }
+    main > .p3 > .p3-a > article > h2{
+        font: 600 normal 35px Inter;
+        margin-bottom: 40px;
+    }
+    main > .p3 > .p3-a > article > p{
+        font: 400 normal 17px Inter;
+        text-align: justify;
+        margin-bottom: 70px;
+        line-height: 27px;
+    }
+    main > .p3 > .p3-a > img{
+        width: 375px;
+        margin-top: 50px;
+        border-radius: 10px;
+    }
+    main > .p3 > .p3-a > article > a{
+        border-radius: 10px;
+        padding: 20px 25px;
+        font: 400 normal 19px Inter;
+        text-decoration: none;
+        color: white;
+        background-color: #404E34;
+    }
+    main > .p3 > .p3-a > article > a:hover{
+        background-color: #00A241;
+        transition: 0.2s;
+    }
+    main > .p3 > .p3-a{
+        width: 100vw;
+        margin: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-items: center;
+        background-color: white;
+        margin: -150px 0px 100px 0px;
+    }
+    main > .p4 > .p4-a > article{
+        width: 400px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    main > .p4 > .p4-a > article > h2{
+        font: 600 normal 35px Inter;
+        margin-bottom: 40px;
+    }
+    main > .p4 > .p4-a > article > p{
+        font: 400 normal 17px Inter;
+        text-align: justify;
+        margin-bottom: 70px;
+        line-height: 27px;
+    }
+    main > .p4 > .p4-a > img{
+        width: 400px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        border-radius: 300px;
+    }
+    main > .p4 > .p4-a > article > a{
+        border-radius: 10px;
+        padding: 20px 25px;
+        font: 400 normal 19px Inter;
+        text-decoration: none;
+        color: white;
+        background-color: #404E34;
+    }
+    main > .p4 > .p4-a > article > a:hover{
+        background-color: #00A241;
+        transition: 0.2s;
+    }
+    main > .p4 > .p4-a{
+        width: 100vw;
+        margin: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-items: center;
+        margin-bottom: 100px;
+        background-color: #8C9484;
+    }
+}
+@media screen and (max-width: 525px){
+    header > nav > img{
+        width: 150px;
+    }
+    main > .p1 > .p1-a{
+        width: 415px;
+    }
+    main > .p1 > .p1-a > h1{
         text-align: center;
-        width: 15px;
-        margin-bottom: 10px;
+        font: 700 normal 47px Inter;
+        margin-bottom: 7.5px;
+    }
+    main > .p1 > .p1-b > img{
+        width: 400px;
+    } 
+    main .p1 > .p1-a > .crp{
+        text-align: center;
+        font: 400 normal 15px Inter;
+        margin-bottom: 50px;
+        width: 400px;
+    }
+    main > .p1 > .p1-a > p{
+        font: 400 normal 24px Inter;
+        width: 67vh;
+    }
+    main > .p1 > .p1-a > .textinho{
+        text-align: center;
+        font: 400 normal 22px Inter;
+        width: 60vh;
+        line-height: 36px;
+        margin-bottom: 0px;
+    }
+    main > .p1 > .p1-a > .links > .contato{
+        border-radius: 10px;
+        padding: 20px 25px;
+        font: 400 normal 19px Inter;
+        text-decoration: none;
+        color: white;
+        background-color: #404E34;
+    }
+    main > .p1 > .p1-a > .links > .contato:hover{
+        background-color: #00A241;
+        transition: 0.2s;
+    } 
+    main > .p2 > .p2-a > article{
+        width: 375px;
+        margin-top: 50px;
+        margin-bottom: 125px;
+    }
+    main > .p2 > .p2-a > article > h2{
+        font: 600 normal 33px Inter;
+        margin-bottom: 40px;
+    }
+    main > .p2 > .p2-a > article > p{
+        font: 400 normal 16px Inter;
+        text-align: justify;
+        margin-bottom: 70px;
+        line-height: 27px;
+    }
+    main > .p2 > .p2-a > img{
+        width: 375px;
+        margin-top: 50px;
+    }
+    main > .p2 > .p2-a > article > a{
+        border-radius: 10px;
+        padding: 20px 35px;
+        font: 400 normal 16px Inter;
+        text-decoration: none;
+        color: white;
+        background-color: #404E34;
+    }
+    main > .p2 > .p2-a > article > a:hover{
+        background-color: #00A241;
+        transition: 0.2s;
+    }
+    main > .p3 > .p3-a > article{
+        width: 375px;
+        margin-top: 50px;
+    }
+    main > .p3 > .p3-a > article > h2{
+        font: 600 normal 33px Inter;
+        margin-bottom: 40px;
+    }
+    main > .p3 > .p3-a > article > p{
+        font: 400 normal 15px Inter;
+        text-align: justify;
+        margin-bottom: 70px;
+        line-height: 27px;
+    }
+    main > .p3 > .p3-a > img{
+        width: 350px;
+        margin-top: 50px;
+        border-radius: 10px;
+    }
+    main > .p3 > .p3-a > article > a{
+        border-radius: 10px;
+        padding: 20px 25px;
+        font: 400 normal 16px Inter;
+        text-decoration: none;
+        color: white;
+        background-color: #404E34;
+    }
+    main > .p3 > .p3-a > article > a:hover{
+        background-color: #00A241;
+        transition: 0.2s;
+    }
+    main > .p3 > .p3-a{
+        width: 100vw;
+        margin: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-items: center;
+        background-color: white;
+        margin: -150px 0px 100px 0px;
+    }
+    main > .p4 > .p4-a > article{
+        width: 375px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    main > .p4 > .p4-a > article > h2{
+        font: 600 normal 30px Inter;
+        margin-bottom: 40px;
+    }
+    main > .p4 > .p4-a > article > p{
+        font: 400 normal 16px Inter;
+        text-align: justify;
+        margin-bottom: 70px;
+        line-height: 27px;
+    }
+    main > .p4 > .p4-a > img{
+        width: 375px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        border-radius: 300px;
+    }
+    main > .p4 > .p4-a > article > a{
+        border-radius: 10px;
+        padding: 20px 25px;
+        font: 400 normal 16px Inter;
+        text-decoration: none;
+        color: white;
+        background-color: #404E34;
+    }
+    main > .p4 > .p4-a > article > a:hover{
+        background-color: #00A241;
+        transition: 0.2s;
+    }
+    main > .p4 > .p4-a{
+        width: 100vw;
+        margin: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-items: center;
+        margin-bottom: 100px;
+        background-color: #8C9484;
+    }
+}
+@media screen and (max-width: 425px){
+    header > nav > img{
+        width: 140px;
+    }
+    main > .p1 > .p1-a{
+        width: 400px;
+    }
+    main > .p1 > .p1-a > h1{
+        font: 700 normal 40px Inter;
+        margin-bottom: 7.5px;
+        text-align: center;
+    }
+    main > .p1 > .p1-b > img{
+        width: 325px;
+    } 
+    main .p1 > .p1-a > .crp{
+        font: 400 normal 14px Inter;
+        margin-bottom: 50px;
+    }
+    main > .p1 > .p1-a > p{
+        font: 400 normal 23px Inter;
+        width: 67vh;
+    }
+    main > .p1 > .p1-a > .textinho{
+        font: 400 normal 20px Inter;
+        text-align: center;
+        width: 60vh;
+        line-height: 36px;
+        margin-bottom: 0px;
+    }
+    main > .p1 > .p1-a > .links > .contato{
+        border-radius: 10px;
+        padding: 20px 25px;
+        font: 400 normal 14px Inter;
+        text-decoration: none;
+        color: white;
+        background-color: #404E34;
+    }
+    main > .p1 > .p1-a > .links > .contato:hover{
+        background-color: #00A241;
+        transition: 0.2s;
+    } 
+    main > .p2 > .p2-a > article{
+        width: 300px;
+        margin-top: 50px;
+        margin-bottom: 125px;
+    }
+    main > .p2 > .p2-a > article > h2{
+        font: 600 normal 33px Inter;
+        margin-bottom: 40px;
+    }
+    main > .p2 > .p2-a > article > p{
+        font: 400 normal 16px Inter;
+        text-align: justify;
+        margin-bottom: 70px;
+        line-height: 27px;
+    }
+    main > .p2 > .p2-a > img{
+        width: 300px;
+        margin-top: 50px;
+    }
+    main > .p2 > .p2-a > article > a{
+        border-radius: 10px;
+        padding: 20px 35px;
+        font: 400 normal 14px Inter;
+        text-decoration: none;
+        color: white;
+        background-color: #404E34;
+    }
+    main > .p2 > .p2-a > article > a:hover{
+        background-color: #00A241;
+        transition: 0.2s;
+    }
+    main > .p3 > .p3-a > article{
+        width: 300px;
+        margin-top: 50px;
+    }
+    main > .p3 > .p3-a > article > h2{
+        font: 600 normal 33px Inter;
+        margin-bottom: 40px;
+    }
+    main > .p3 > .p3-a > article > p{
+        font: 400 normal 15px Inter;
+        text-align: justify;
+        margin-bottom: 70px;
+        line-height: 27px;
+    }
+    main > .p3 > .p3-a > img{
+        width: 300px;
+        margin-top: 50px;
+        border-radius: 10px;
+    }
+    main > .p3 > .p3-a > article > a{
+        border-radius: 10px;
+        padding: 20px 25px;
+        font: 400 normal 15px Inter;
+        text-decoration: none;
+        color: white;
+        background-color: #404E34;
+    }
+    main > .p3 > .p3-a > article > a:hover{
+        background-color: #00A241;
+        transition: 0.2s;
+    }
+    main > .p3 > .p3-a{
+        width: 100vw;
+        margin: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-items: center;
+        background-color: white;
+        margin: -150px 0px 100px 0px;
+    }
+    main > .p4 > .p4-a > article{
+        width: 300px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    main > .p4 > .p4-a > article > h2{
+        font: 600 normal 30px Inter;
+        margin-bottom: 40px;
+    }
+    main > .p4 > .p4-a > article > p{
+        font: 400 normal 15px Inter;
+        text-align: justify;
+        margin-bottom: 70px;
+        line-height: 27px;
+    }
+    main > .p4 > .p4-a > img{
+        width: 300px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        border-radius: 300px;
+    }
+    main > .p4 > .p4-a > article > a{
+        border-radius: 10px;
+        padding: 20px 25px;
+        font: 400 normal 16px Inter;
+        text-decoration: none;
+        color: white;
+        background-color: #404E34;
+    }
+    main > .p4 > .p4-a > article > a:hover{
+        background-color: #00A241;
+        transition: 0.2s;
+    }
+    main > .p4 > .p4-a{
+        width: 100vw;
+        margin: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-items: center;
+        margin-bottom: 100px;
+        background-color: #8C9484;
     }
 }
