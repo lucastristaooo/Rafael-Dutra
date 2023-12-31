@@ -1,4 +1,5 @@
 @charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 *{
     margin: 0px;
     padding: 0px;
@@ -451,12 +452,13 @@ footer > .crpfot{
     }
     main > .p1 > .p1-a > p{
         font: 400 normal 24px Inter;
-        width: 67vh;
+        width: 50vh;
     }
     main > .p1 > .p1-a > .textinho{
         text-align: center;
         font: 400 normal 22px Inter;
-        width: 60vh;
+        width: 50vh;
+        margin: auto;
         line-height: 36px;
         margin-bottom: 0px;
     }
@@ -618,7 +620,7 @@ footer > .crpfot{
     main > .p1 > .p1-a > .textinho{
         font: 400 normal 20px Inter;
         text-align: center;
-        width: 60vh;
+        width: 50vh;
         line-height: 36px;
         margin-bottom: 0px;
     }
