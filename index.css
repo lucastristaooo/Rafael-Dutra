@@ -106,7 +106,7 @@ nav > img{
     justify-items: center;
     background-color: #8C9484;
     margin: -200px 0px 100px 0px;
-    gap: 25px;
+    gap: 20px;
 }
 .página-2 > .página-2-a > article{
     margin-top: 50px;
@@ -153,7 +153,7 @@ nav > img{
     align-items: center;
     justify-items: center;
     background-color: white;
-    gap: 25px;
+    gap: 20px;
 }
 .página-3 > .página-3-a > article{
     margin-top: 50px;
@@ -197,7 +197,7 @@ nav > img{
     align-items: center;
     justify-items: center;
     background-color: #8C9484;
-    gap: 25px;
+    gap: 20px;
 }
 .página-4 > .página-4-a > article{
     width: 400px;
@@ -327,7 +327,6 @@ footer > .crp-2{
     }
     .página-3 > .página-3-a > img{
         width: 350px;
-        margin-top: 0px;
     }
     .página-4 > .página-4-a > article > h2{
         font-size: 32px;
@@ -435,6 +434,6 @@ footer > .crp-2{
         width: 250px;
     }
     .página-4 > .página-4-a > img{
-        width: 265px;
+        width: 260px;
     }
 }
