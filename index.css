@@ -5,14 +5,6 @@
     padding: 0;
     font-family: "Inter";
 }
-@keyframes opacity{
-    0%{
-        opacity: 0;
-    }
-    100%{
-        opacity: 1;
-    }
-}
 header{
     animation: opacity 2s 1;
 }
@@ -444,5 +436,13 @@ footer > .crp-2{
     }
     .página-4 > .página-4-a > img{
         width: 260px;
+    }
+}
+@keyframes opacity{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
     }
 }
