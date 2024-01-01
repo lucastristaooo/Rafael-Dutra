@@ -1,758 +1,439 @@
 @charset "UTF-8";
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 *{
-    margin: 0px;
-    padding: 0px;
-    font-family: Inter;
+    margin: 0;
+    padding: 0;
+    font-family: "Inter";
 }
-header > nav > a{
-    font: 400 normal 18px Inter;
-    text-underline-offset: 7px;
+@keyframes opacity{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+header{
+    animation: opacity 2s 1;
+}
+nav > a{
     display: block;
     margin: -128px 0px 0px 164px;
+    font: 400 normal 18px "Inter";
+    text-underline-offset: 7px;
     color: black;
-
-}
-header > nav > a:hover{
-    opacity: 0.5;
     transition: 0.5s;
 }
-header > nav > img{
+nav > a:hover{
+    opacity: 0.5;
+}
+nav > img{
     display: block;
+    margin: 30px auto -60px auto;
+    width: 200px;
     text-align: center;
     cursor: pointer;
-    margin: 30px auto -60px auto;
 }
-header > nav > img{
-    width: 200px;
-}
-main > .p1{
-    margin: 165.7px auto 200px auto;
+.página-1{
+    animation: opacity 2s 1;
+    display: flex;
+    margin: 125px auto 200px auto;
     width: 80vw;
-    display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
     flex-wrap: wrap;
-    justify-items: center;
+    justify-content: space-evenly;
     align-items: center;
+    justify-items: center;
 }
-main > .p2 > .p2-a{
-    width: 100vw;
-    margin: auto;
+.página-1 > .página-1-a{
+    width: 415px;
+}
+.página-1 > .página-1-a > h1{
+    font: 700 normal 60px "Inter";
+    margin-bottom: 7.5px;
+}
+.página-1 > .página-1-a > .crp-1{
+    font: 400 normal 18px "Inter";
+    margin-bottom: 50px;
+}
+.página-1 > .página-1-a > p{
+    width: 67vh;
+    font: 400 normal 28px "Inter";
+}
+.página-1 > .página-1-a > .texto-1{
+    margin-bottom: 60px;
+    width: 67vh;
+    font: 400 normal 28px "Inter";
+    line-height: 36px;
+}
+.página-1 > .página-1-a > a{
+    padding: 18.5px 30px;
+    border-radius: 10px;
+    font: 400 normal 19px "Inter";
+    text-decoration: none;
+    color: white;
+    background-color: #404E34;
+    transition: 0.2s;
+}
+.página-1 > .página-1-a > a:hover{
+    background-color: #00A241;
+}
+.página-1 > .página-1-b > .círculo{
+    width: 300px;
+    position: absolute;
+    border-radius: 100%;
+    height: 300px;
+    top: 500px;
+    right: 200px;
+    z-index: -1;
+    background-color: #404E34;
+    opacity: 0.6;
+}
+.página-1 > .página-1-b > img{
+    display: block;
+    margin: 50px auto 50px auto;
+    width: 500px;
+    border-radius: 100%;
+}
+.página-2 > .página-2-a{
+    animation: opacity 2s 1;
     display: flex;
+    width: 100vw;
+    flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-evenly;
-    flex-wrap: wrap;
     align-items: center;
     justify-items: center;
     background-color: #8C9484;
     margin: -200px 0px 100px 0px;
+    gap: 20px;
 }
-main > .p1 > .p1-a{
-    width: 415px;
-}
-main > .p1 > .p1-a > h1{
-    font: 700 normal 60px "Inter";
-    margin-bottom: 7.5px;
-}
-main .p1 > .p1-a > .crp{
-    font: 400 normal 18px "Inter";
-    margin-bottom: 50px;
-}
-main > .p1 > .p1-a > p{
-    font: 400 normal 28px "Inter";
-    width: 67vh;
-}
-main > .p1 > .p1-a > .textinho{
-    font: 400 normal 28px "Inter";
-    width: 67vh;
-    line-height: 36px;
-    margin-bottom: 0px;
-}
-main > .p1 > .p1-a > .links > .contato{
-    border-radius: 10px;
-    padding: 20px 25px;
-    font: 400 normal 19px "Inter";
-    text-decoration: none;
-    color: white;
-    background-color: #404E34;
-}
-main > .p1 > .p1-a > .links > .contato:hover{
-    background-color: #00A241;
-    transition: 0.2s;
-}
-main > .p1 > .p1-b > .bola{
-    width: 40vh;
-    border-radius: 100%;
-    height: 40vh;
-    z-index: -1;
-    right: 200px;
-    top: 550px;
-    position: absolute;
-    background-color: #404E34;
-    opacity: 0.6;
-}
-main > .p1 > .p1-b > img{
-    width: 500px;
-    margin: 50px auto 50px auto;
-    display: block;
-    border-radius: 100%;
-}
-main > .p1 > .p1-a > .links{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-}
-main > .p1 > .p1-a > .links > .zap{
-    margin: 50px;
-    background-color: white;
-}
-main > .p1 > .p1-a > .links > .zap > img{
-    width: 60px
-}
-main > .p1 > .p1-a > .links > .zap > img:hover{
-    opacity: 0.5;
-    transition: 0.5s;
-}
-main > .p2 > .p2-a > article{
-    width: 400px;
+.página-2 > .página-2-a > article{
     margin-top: 50px;
     margin-bottom: 125px;
+    width: 400px;
 }
-main > .p2 > .p2-a > article > h2{
-    font: 600 normal 37px "Inter";
+.página-2 > .página-2-a > article > h2{
     margin-bottom: 40px;
+    font: 600 normal 36px "Inter";
 }
-main > .p2 > .p2-a > article > p{
-    font: 400 normal 18px "Inter";
-    text-align: justify;
+.página-2 > .página-2-a > article > p{
     margin-bottom: 70px;
+    text-align: justify;
+    font: 400 normal 18px "Inter";
     line-height: 27px;
 }
-main > .p2 > .p2-a > img{
-    width: 450px;
+.página-2 > .página-2-a > img{
     margin-top: -40px;
+    width: 450px;
 }
-main > .p2 > .p2-a > article > a{
+.página-2-a > .img-cell-1{
+    display: none;
+}
+.página-2 > .página-2-a > article > a{
     border-radius: 10px;
-    padding: 20px 35px;
-    font: 400 normal 19px "Inter";
+    padding: 18.5px 30px;
     text-decoration: none;
     color: white;
     background-color: #404E34;
-}
-main > .p2 > .p2-a > article > a:hover{
-    background-color: #00A241;
-    transition: 0.2s;
-}
-main > .p3 > .p3-a > article{
-    width: 400px;
-    margin-top: 50px;
-}
-main > .p3 > .p3-a > article > h2{
-    font: 600 normal 37px "Inter";
-    margin-bottom: 40px;
-}
-main > .p3 > .p3-a > article > p{
-    font: 400 normal 18px "Inter";
-    text-align: justify;
-    margin-bottom: 70px;
-    line-height: 27px;
-}
-main > .p3 > .p3-a > img{
-    width: 400px;
-    margin-top: 50px;
-    border-radius: 10px;
-}
-main > .p3 > .p3-a > article > a{
-    border-radius: 10px;
-    padding: 20px 25px;
     font: 400 normal 19px "Inter";
-    text-decoration: none;
-    color: white;
-    background-color: #404E34;
-}
-main > .p3 > .p3-a > article > a:hover{
-    background-color: #00A241;
     transition: 0.2s;
 }
-main > .p3 > .p3-a{
+.página-2 > .página-2-a > article > a:hover{
+    background-color: #00A241;
+}
+.página-3 > .página-3-a{
+    animation: opacity 2s 1;
+    margin: -150px 0px 100px 0px;
     width: 100vw;
-    margin: auto;
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-evenly;
-    flex-wrap: wrap;
     align-items: center;
     justify-items: center;
     background-color: white;
-    margin: -150px 0px 100px 0px;
+    gap: 20px;
 }
-main > .p4 > .p4-a > article{
-    width: 400px;
+.página-3 > .página-3-a > article{
     margin-top: 50px;
-    margin-bottom: 50px;
+    width: 400px;
 }
-main > .p4 > .p4-a > article > h2{
-    font: 600 normal 37px "Inter";
+.página-3 > .página-3-a > article > h2{
     margin-bottom: 40px;
+    font: 600 normal 36px "Inter";
 }
-main > .p4 > .p4-a > article > p{
-    font: 400 normal 18px "Inter";
-    text-align: justify;
+.página-3 > .página-3-a > article > p{
     margin-bottom: 70px;
+    text-align: justify;
+    font: 400 normal 18px "Inter";
     line-height: 27px;
 }
-main > .p4 > .p4-a > img{
-    width: 450px;
+.página-3 > .página-3-a > img{
     margin-top: 50px;
-    margin-bottom: 50px;
-    border-radius: 300px;
-}
-main > .p4 > .p4-a > article > a{
+    width: 400px;
     border-radius: 10px;
-    padding: 20px 25px;
+}
+.página-3 > .página-3-a > article > a{
+    border-radius: 10px;
+    padding: 18.5px 30px;
     font: 400 normal 19px "Inter";
     text-decoration: none;
     color: white;
     background-color: #404E34;
-}
-main > .p4 > .p4-a > article > a:hover{
-    background-color: #00A241;
     transition: 0.2s;
 }
-main > .p4 > .p4-a{
+.página-3 > .página-3-a > article > a:hover{
+    background-color: #00A241;
+}
+.página-4 > .página-4-a{
+    animation: opacity 2s 1;
+    margin: -40px 0px 100px 0px;
     width: 100vw;
-    margin: auto;
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-evenly;
-    flex-wrap: wrap;
     align-items: center;
     justify-items: center;
     background-color: #8C9484;
-    margin: -40px 0px 100px 0px;
+    gap: 20px;
 }
-main > .p5 > .p5-a{
+.página-4 > .página-4-a > article{
+    width: 400px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.página-4 > .página-4-a > article > h2{
+    margin-bottom: 40px;
+    font: 600 normal 36px "Inter";
+}
+.página-4 > .página-4-a > article > p{
+    margin-bottom: 70px;
+    font: 400 normal 18px "Inter";
+    text-align: justify;
+    line-height: 27px;
+}
+.página-4 > .página-4-a > img{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 450px;
+    border-radius: 50%;
+}
+.página-4 > .página-4-a > .img-cell-2{
+    display: none;
+}
+.página-4 > .página-4-a > article > a{
+    padding: 18.5px 30px;
+    border-radius: 10px;
+    font: 400 normal 19px "Inter";
+    text-decoration: none;
+    color: white;
+    background-color: #404E34;
+    transition: 0.2s;
+}
+.página-4 > .página-4-a > article > a:hover{
+    background-color: #00A241;
+}
+.página-5 > .página-5-a{
+    animation: opacity 2s 1;
     margin-top: -75px;
     margin-bottom: 30px;
 }
-main > .p5 > .p5-a > article{
+.página-5 > .página-5-a > article{
     margin: auto;
     width: 80vw
 }
 footer > p{
+    margin-bottom: 20px;
     font: normal 300 1em "Inter";
     text-align: center;
-    margin-bottom: 20px;
 }
 footer > div{
+    margin-bottom: 15px;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     gap: 15px;
-    margin-bottom: 15px;
 }
 footer > div > a > img{
     width: 25px;
 }
-footer > .crpfot{
+footer > .crp-2{
     margin-top: -15px;
     font: normal 300 0.8em "Inter";
 }
-@media screen and (max-width: 1420px) {
-    .bola{
+@media screen and (max-width: 1350px){
+    .página-1 > .página-1-b > .círculo{
         display: none;
     }
-}
-@media screen and (max-width: 1143px){
-    header > nav > a{
-        display: none;
+    .página-1 > .página-1-a{
+        text-align: center;
     }
 }
 @media screen and (max-width: 849px){
-    header > nav > img{
-        width: 175px;
+    nav > a{
+        display: none;
     }
-    main > .p1 > .p1-a{
-        width: 415px;
-    }
-    main > .p1 > .p1-a > h1{
-        font: 700 normal 50px "Inter";
-        margin-bottom: 7.5px;
-    }
-    main .p1 > .p1-a > .crp{
-        font: 400 normal 17px "Inter";
-        margin-bottom: 50px;
-    }
-    main > .p1 > .p1-a > p{
-        font: 400 normal 26px "Inter";
-        width: 67vh;
-    }
-    main > .p1 > .p1-a > .textinho{
-        font: 400 normal 25px "Inter";
-        width: 67vh;
-        line-height: 36px;
-        margin-bottom: 0px;
-    }
-    main > .p1 > .p1-a > .links > .contato{
-        border-radius: 10px;
-        padding: 20px 25px;
-        font: 400 normal 19px "Inter";
-        text-decoration: none;
-        color: white;
-        background-color: #404E34;
-    }
-    main > .p1 > .p1-a > .links > .contato:hover{
-        background-color: #00A241;
-        transition: 0.2s;
-    } 
-    main > .p2 > .p2-a > article{
-        width: 400px;
-        margin-top: 50px;
-        margin-bottom: 125px;
-    }
-    main > .p2 > .p2-a > article > h2{
-        font: 600 normal 36px "Inter";
-        margin-bottom: 40px;
-    }
-    main > .p2 > .p2-a > article > p{
-        font: 400 normal 17px "Inter";
-        text-align: justify;
-        margin-bottom: 70px;
-        line-height: 27px;
-    }
-    main > .p2 > .p2-a > img{
-        width: 425px;
-        margin-top: 50px;
-    }
-    main > .p2 > .p2-a > article > a{
-        border-radius: 10px;
-        padding: 20px 35px;
-        font: 400 normal 19px "Inter";
-        text-decoration: none;
-        color: white;
-        background-color: #404E34;
-    }
-    main > .p2 > .p2-a > article > a:hover{
-        background-color: #00A241;
-        transition: 0.2s;
-    }
-    main > .p3 > .p3-a > article{
-        width: 400px;
-        margin-top: 50px;
-    }
-    main > .p3 > .p3-a > article > h2{
-        font: 600 normal 35px "Inter";
-        margin-bottom: 40px;
-    }
-    main > .p3 > .p3-a > article > p{
-        font: 400 normal 17px "Inter";
-        text-align: justify;
-        margin-bottom: 70px;
-        line-height: 27px;
-    }
-    main > .p3 > .p3-a > img{
-        width: 375px;
-        margin-top: 50px;
-        border-radius: 10px;
-    }
-    main > .p3 > .p3-a > article > a{
-        border-radius: 10px;
-        padding: 20px 25px;
-        font: 400 normal 19px "Inter";
-        text-decoration: none;
-        color: white;
-        background-color: #404E34;
-    }
-    main > .p3 > .p3-a > article > a:hover{
-        background-color: #00A241;
-        transition: 0.2s;
-    }
-    main > .p3 > .p3-a{
-        width: 100vw;
-        margin: auto;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-evenly;
-        flex-wrap: wrap;
-        align-items: center;
-        justify-items: center;
-        background-color: white;
-        margin: -150px 0px 100px 0px;
-    }
-    main > .p4 > .p4-a > article{
-        width: 400px;
-        margin-top: 50px;
-        margin-bottom: 50px;
-    }
-    main > .p4 > .p4-a > article > h2{
-        font: 600 normal 35px "Inter";
-        margin-bottom: 40px;
-    }
-    main > .p4 > .p4-a > article > p{
-        font: 400 normal 17px "Inter";
-        text-align: justify;
-        margin-bottom: 70px;
-        line-height: 27px;
-    }
-    main > .p4 > .p4-a > img{
-        width: 400px;
-        margin-top: 50px;
-        margin-bottom: 50px;
-        border-radius: 300px;
-    }
-    main > .p4 > .p4-a > article > a{
-        border-radius: 10px;
-        padding: 20px 25px;
-        font: 400 normal 19px "Inter";
-        text-decoration: none;
-        color: white;
-        background-color: #404E34;
-    }
-    main > .p4 > .p4-a > article > a:hover{
-        background-color: #00A241;
-        transition: 0.2s;
-    }
-    main > .p4 > .p4-a{
-        width: 100vw;
-        margin: auto;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-evenly;
-        flex-wrap: wrap;
-        align-items: center;
-        justify-items: center;
-        margin-bottom: 100px;
-        background-color: #8C9484;
-    }
-}
-@media screen and (max-width: 525px){
-    header > nav > img{
+    nav > img{
         width: 150px;
     }
-    main > .p1 > .p1-a{
-        width: 415px;
+    .página-1 > .página-1-a > h1{
+        font-size: 50px;
     }
-    main > .p1 > .p1-a > h1{
-        text-align: center;
-        font: 700 normal 47px "Inter";
-        margin-bottom: 7.5px;
+    .página-1 > .página-1-a > .crp-1{
+        font-size: 15px;
+        width: auto;
     }
-    main > .p1 > .p1-b > img{
+    .página-1 > .página-1-a > .texto-1{
+        font-size: 22px;
+        width: auto;
+    }
+    .página-1 > .página-1-a > a{
+        font-size: 17px;
+    }
+    .página-1 > .página-1-b > img{
         width: 400px;
-    } 
-    main .p1 > .p1-a > .crp{
-        text-align: center;
-        font: 400 normal 15px "Inter";
-        margin-bottom: 50px;
+    }
+    .página-2 > .página-2-a{
+        gap: 0px;
+    }
+    .página-2 > .página-2-a > article > h2{
+        font-size: 32px;
+    }
+    .página-2 > .página-2-a > article > p{
+        font-size: 16px;
+    }
+    .página-2 > .página-2-a > article > a{
+        font-size: 17px;
+    }
+    .página-2 > .página-2-a > img{
+        display: none;
         width: 400px;
     }
-    main > .p1 > .p1-a > p{
-        font: 400 normal 24px "Inter";
-        width: 50vh;
+    .página-2 > .página-2-a > .img-cell-1{
+        display: block;
+        margin-bottom: 80px;
     }
-    main > .p1 > .p1-a > .textinho{
-        text-align: center;
-        font: 400 normal 22px "Inter";
-        width: 50vh;
-        margin: auto;
-        line-height: 36px;
-        margin-bottom: 0px;
+    .página-3 > .página-3-a > article > h2{
+        font-size: 32px;
     }
-    main > .p1 > .p1-a > .links > .contato{
-        border-radius: 10px;
-        padding: 20px 25px;
-        font: 400 normal 19px "Inter";
-        text-decoration: none;
-        color: white;
-        background-color: #404E34;
+    .página-3 > .página-3-a > article > p{
+        font-size: 16px;
     }
-    main > .p1 > .p1-a > .links > .contato:hover{
-        background-color: #00A241;
-        transition: 0.2s;
-    } 
-    main > .p2 > .p2-a > article{
-        width: 375px;
-        margin-top: 50px;
-        margin-bottom: 125px;
+    .página-3 > .página-3-a > article > a{
+        font-size: 17px;
     }
-    main > .p2 > .p2-a > article > h2{
-        font: 600 normal 33px "Inter";
-        margin-bottom: 40px;
-    }
-    main > .p2 > .p2-a > article > p{
-        font: 400 normal 16px "Inter";
-        text-align: justify;
-        margin-bottom: 70px;
-        line-height: 27px;
-    }
-    main > .p2 > .p2-a > img{
-        width: 375px;
-        margin-top: 50px;
-    }
-    main > .p2 > .p2-a > article > a{
-        border-radius: 10px;
-        padding: 20px 35px;
-        font: 400 normal 16px "Inter";
-        text-decoration: none;
-        color: white;
-        background-color: #404E34;
-    }
-    main > .p2 > .p2-a > article > a:hover{
-        background-color: #00A241;
-        transition: 0.2s;
-    }
-    main > .p3 > .p3-a > article{
-        width: 375px;
-        margin-top: 50px;
-    }
-    main > .p3 > .p3-a > article > h2{
-        font: 600 normal 33px "Inter";
-        margin-bottom: 40px;
-    }
-    main > .p3 > .p3-a > article > p{
-        font: 400 normal 15px "Inter";
-        text-align: justify;
-        margin-bottom: 70px;
-        line-height: 27px;
-    }
-    main > .p3 > .p3-a > img{
+    .página-3 > .página-3-a > img{
         width: 350px;
-        margin-top: 50px;
-        border-radius: 10px;
     }
-    main > .p3 > .p3-a > article > a{
-        border-radius: 10px;
-        padding: 20px 25px;
-        font: 400 normal 16px "Inter";
-        text-decoration: none;
-        color: white;
-        background-color: #404E34;
+    .página-4 > .página-4-a > article > h2{
+        font-size: 32px;
     }
-    main > .p3 > .p3-a > article > a:hover{
-        background-color: #00A241;
-        transition: 0.2s;
+    .página-4 > .página-4-a > article > p{
+        font-size: 16px;
     }
-    main > .p3 > .p3-a{
-        width: 100vw;
-        margin: auto;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-evenly;
-        flex-wrap: wrap;
-        align-items: center;
-        justify-items: center;
-        background-color: white;
-        margin: -150px 0px 100px 0px;
+    .página-4 > .página-4-a > article > a{
+        font-size: 17px;
     }
-    main > .p4 > .p4-a > article{
-        width: 375px;
-        margin-top: 50px;
-        margin-bottom: 50px;
+    .página-4 > .página-4-a > img{
+        display: none;
+        width: 400px;
     }
-    main > .p4 > .p4-a > article > h2{
-        font: 600 normal 30px "Inter";
-        margin-bottom: 40px;
+    .página-4 > .página-4-a{
+        gap: 0px;
     }
-    main > .p4 > .p4-a > article > p{
-        font: 400 normal 16px "Inter";
-        text-align: justify;
-        margin-bottom: 70px;
-        line-height: 27px;
+    .página-4 > .página-4-a > img{
+        display: none;
     }
-    main > .p4 > .p4-a > img{
-        width: 375px;
-        margin-top: 50px;
-        margin-bottom: 50px;
-        border-radius: 300px;
+    .página-4 > .página-4-a > .img-cell-2{
+        display: block;
     }
-    main > .p4 > .p4-a > article > a{
-        border-radius: 10px;
-        padding: 20px 25px;
-        font: 400 normal 16px "Inter";
-        text-decoration: none;
-        color: white;
-        background-color: #404E34;
-    }
-    main > .p4 > .p4-a > article > a:hover{
-        background-color: #00A241;
-        transition: 0.2s;
-    }
-    main > .p4 > .p4-a{
-        width: 100vw;
-        margin: auto;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-evenly;
-        flex-wrap: wrap;
-        align-items: center;
-        justify-items: center;
-        margin-bottom: 100px;
-        background-color: #8C9484;
+    footer{
+        font-size: 0.94em;
     }
 }
-@media screen and (max-width: 425px){
-    header > nav > img{
-        width: 140px;
+@media screen and (max-width: 420px){
+    nav > img{
+        width: 135px;
     }
-    main > .p1 > .p1-a{
-        width: 400px;
+    .página-1 > .página-1-a > h1{
+        font-size: 45px;
     }
-    main > .p1 > .p1-a > h1{
-        font: 700 normal 40px "Inter";
-        margin-bottom: 7.5px;
-        text-align: center;
+    .página-1 > .página-1-a > .crp-1{
+        font-size: 14px;
     }
-    main > .p1 > .p1-b > img{
-        width: 325px;
-    } 
-    main .p1 > .p1-a > .crp{
-        font: 400 normal 14px "Inter";
-        margin-bottom: 50px;
+    .página-1 > .página-1-a > .texto-1{
+        font-size: 19px;
     }
-    main > .p1 > .p1-a > p{
-        font: 400 normal 23px "Inter";
-        width: 67vh;
+    .página-1 > .página-1-a > a{
+        font-size: 15px;
     }
-    main > .p1 > .p1-a > .textinho{
-        font: 400 normal 20px "Inter";
-        text-align: center;
-        width: 50vh;
-        line-height: 36px;
-        margin-bottom: 0px;
+    .página-1 > .página-1-b > img{
+        width: 295px;
     }
-    main > .p1 > .p1-a > .links > .contato{
-        border-radius: 10px;
-        padding: 20px 25px;
-        font: 400 normal 14px "Inter";
-        text-decoration: none;
-        color: white;
-        background-color: #404E34;
+    .página-2 > .página-2-a > article > h2{
+        padding: 0px 20px 0px 20px;
+    }  
+    .página-2 > .página-2-a > article > p{
+        font-size: 15px;
+        width: auto;
+        padding: 0px 20px 0px 20px;
     }
-    main > .p1 > .p1-a > .links > .contato:hover{
-        background-color: #00A241;
-        transition: 0.2s;
-    } 
-    main > .p2 > .p2-a > article{
-        width: 300px;
-        margin-top: 50px;
-        margin-bottom: 125px;
+    .página-2 > .página-2-a > article > a{
+        font-size: 15px;
+        margin: 0px 20px 0px 20px;
     }
-    main > .p2 > .p2-a > article > h2{
-        font: 600 normal 33px "Inter";
-        margin-bottom: 40px;
+    .página-2 > .página-2-a > img{
+        display: none;
+        width: 294px;
     }
-    main > .p2 > .p2-a > article > p{
-        font: 400 normal 16px "Inter";
-        text-align: justify;
-        margin-bottom: 70px;
-        line-height: 27px;
+    .página-3 > .página-3-a > article > h2{
+        padding: 0px 20px 0px 20px;
+    }  
+    .página-3 > .página-3-a > article > p{
+        font-size: 15px;
+        width: auto;
+        padding: 0px 20px 0px 20px;
     }
-    main > .p2 > .p2-a > img{
-        width: 300px;
-        margin-top: 50px;
+    .página-3 > .página-3-a > article > a{
+        font-size: 15px;
+        margin: 0px 20px 0px 20px;
     }
-    main > .p2 > .p2-a > article > a{
-        border-radius: 10px;
-        padding: 20px 35px;
-        font: 400 normal 14px "Inter";
-        text-decoration: none;
-        color: white;
-        background-color: #404E34;
+    .página-3 > .página-3-a > img{
+        width: 294px;
     }
-    main > .p2 > .p2-a > article > a:hover{
-        background-color: #00A241;
-        transition: 0.2s;
+    .página-4 > .página-4-a > article > h2{
+        padding: 0px 20px 0px 20px;
+    }  
+    .página-4 > .página-4-a > article > p{
+        font-size: 15px;
+        width: auto;
+        padding: 0px 20px 0px 20px;
     }
-    main > .p3 > .p3-a > article{
-        width: 300px;
-        margin-top: 50px;
+    .página-4 > .página-4-a > article > a{
+        font-size: 15px;
+        margin: 0px 20px 0px 20px;
     }
-    main > .p3 > .p3-a > article > h2{
-        font: 600 normal 33px "Inter";
-        margin-bottom: 40px;
+    .página-4 > .página-4-a > img{
+        width: 294px;
     }
-    main > .p3 > .p3-a > article > p{
-        font: 400 normal 15px "Inter";
-        text-align: justify;
-        margin-bottom: 70px;
-        line-height: 27px;
+    footer{
+        font-size: 0.9em;
     }
-    main > .p3 > .p3-a > img{
-        width: 300px;
-        margin-top: 50px;
-        border-radius: 10px;
+}
+@media screen and (max-width: 300px) {
+    .página-1 > .página-1-b > img{
+        width: 260px;
     }
-    main > .p3 > .p3-a > article > a{
-        border-radius: 10px;
-        padding: 20px 25px;
-        font: 400 normal 15px "Inter";
-        text-decoration: none;
-        color: white;
-        background-color: #404E34;
+    .página-2 > .página-2-a > img{
+        width: 260px;
     }
-    main > .p3 > .p3-a > article > a:hover{
-        background-color: #00A241;
-        transition: 0.2s;
+    .página-3 > .página-3-a > img{
+        width: 250px;
     }
-    main > .p3 > .p3-a{
-        width: 100vw;
-        margin: auto;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-evenly;
-        flex-wrap: wrap;
-        align-items: center;
-        justify-items: center;
-        background-color: white;
-        margin: -150px 0px 100px 0px;
-    }
-    main > .p4 > .p4-a > article{
-        width: 300px;
-        margin-top: 50px;
-        margin-bottom: 50px;
-    }
-    main > .p4 > .p4-a > article > h2{
-        font: 600 normal 30px "Inter";
-        margin-bottom: 40px;
-    }
-    main > .p4 > .p4-a > article > p{
-        font: 400 normal 15px "Inter";
-        text-align: justify;
-        margin-bottom: 70px;
-        line-height: 27px;
-    }
-    main > .p4 > .p4-a > img{
-        width: 300px;
-        margin-top: 50px;
-        margin-bottom: 50px;
-        border-radius: 300px;
-    }
-    main > .p4 > .p4-a > article > a{
-        border-radius: 10px;
-        padding: 20px 25px;
-        font: 400 normal 16px "Inter";
-        text-decoration: none;
-        color: white;
-        background-color: #404E34;
-    }
-    main > .p4 > .p4-a > article > a:hover{
-        background-color: #00A241;
-        transition: 0.2s;
-    }
-    main > .p4 > .p4-a{
-        width: 100vw;
-        margin: auto;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-evenly;
-        flex-wrap: wrap;
-        align-items: center;
-        justify-items: center;
-        margin-bottom: 100px;
-        background-color: #8C9484;
+    .página-4 > .página-4-a > img{
+        width: 265px;
     }
 }
