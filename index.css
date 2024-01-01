@@ -272,6 +272,11 @@ footer > .crp-2{
         text-align: center;
     }
 }
+@media screen and (max-width: 869px) {
+    .página-2 > .página-2-a > img{
+        margin-top: 50px;
+    }
+}
 @media screen and (max-width: 849px){
     nav > a{
         display: none;
@@ -311,6 +316,7 @@ footer > .crp-2{
     .página-2 > .página-2-a > img{
         display: none;
         width: 400px;
+        margin-top: -50px;
     }
     .página-2 > .página-2-a > .img-cell-1{
         display: block;
@@ -346,6 +352,7 @@ footer > .crp-2{
     }
     .página-4 > .página-4-a > img{
         display: none;
+        margin-top: 25px;
     }
     .página-4 > .página-4-a > .img-cell-2{
         display: block;
@@ -365,10 +372,10 @@ footer > .crp-2{
         font-size: 14px;
     }
     .página-1 > .página-1-a > .texto-1{
-        font-size: 19px;
+        font-size: 17px;
     }
     .página-1 > .página-1-a > a{
-        font-size: 15px;
+        font-size: 14px;
     }
     .página-1 > .página-1-b > img{
         width: 295px;
@@ -377,28 +384,29 @@ footer > .crp-2{
         padding: 0px 20px 0px 20px;
     }  
     .página-2 > .página-2-a > article > p{
-        font-size: 15px;
+        font-size: 14px;
         width: auto;
         padding: 0px 20px 0px 20px;
     }
     .página-2 > .página-2-a > article > a{
-        font-size: 15px;
+        font-size: 14px;
         margin: 0px 20px 0px 20px;
     }
     .página-2 > .página-2-a > img{
         display: none;
         width: 294px;
+        margin-top: -50px;
     }
     .página-3 > .página-3-a > article > h2{
         padding: 0px 20px 0px 20px;
     }  
     .página-3 > .página-3-a > article > p{
-        font-size: 15px;
+        font-size: 14px;
         width: auto;
         padding: 0px 20px 0px 20px;
     }
     .página-3 > .página-3-a > article > a{
-        font-size: 15px;
+        font-size: 14px;
         margin: 0px 20px 0px 20px;
     }
     .página-3 > .página-3-a > img{
@@ -408,16 +416,17 @@ footer > .crp-2{
         padding: 0px 20px 0px 20px;
     }  
     .página-4 > .página-4-a > article > p{
-        font-size: 15px;
+        font-size: 14px;
         width: auto;
         padding: 0px 20px 0px 20px;
     }
     .página-4 > .página-4-a > article > a{
-        font-size: 15px;
+        font-size: 14px;
         margin: 0px 20px 0px 20px;
     }
     .página-4 > .página-4-a > img{
         width: 294px;
+        margin-top: 25px;
     }
     footer{
         font-size: 0.9em;
