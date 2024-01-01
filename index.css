@@ -106,7 +106,7 @@ nav > img{
     justify-items: center;
     background-color: #8C9484;
     margin: -200px 0px 100px 0px;
-    gap: 20px;
+    gap: 25px;
 }
 .página-2 > .página-2-a > article{
     margin-top: 50px;
@@ -153,7 +153,7 @@ nav > img{
     align-items: center;
     justify-items: center;
     background-color: white;
-    gap: 20px;
+    gap: 25px;
 }
 .página-3 > .página-3-a > article{
     margin-top: 50px;
@@ -197,7 +197,7 @@ nav > img{
     align-items: center;
     justify-items: center;
     background-color: #8C9484;
-    gap: 20px;
+    gap: 25px;
 }
 .página-4 > .página-4-a > article{
     width: 400px;
@@ -327,6 +327,7 @@ footer > .crp-2{
     }
     .página-3 > .página-3-a > img{
         width: 350px;
+        margin-top: 0px;
     }
     .página-4 > .página-4-a > article > h2{
         font-size: 32px;
